@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Chat.css';
 
 export class Chat extends Component {
     componentDidMount() {
@@ -16,7 +17,22 @@ export class Chat extends Component {
   render() {
     return (
       <div>
-        <h1>chatbot</h1>
+        <nav className='navbar'>
+            <div className='navbar-container'>
+                <img src="pic/home.png" alt="" class="home"/>
+                <h1>chatbotdemo</h1>
+            </div>
+        </nav>
+        
+        
+        <div class="pic-ctn">
+            <img src="pic/daia.jpg" alt="" class="pic"/>
+            <img src="pic/mie.jpg" alt="" class="pic"/>
+            <img src="pic/giv.jpg" alt="" class="pic"/>
+            <img src="pic/soklin.jpg" alt="" class="pic"/>
+            <img src="pic/ekonomi.jpg" alt="" class="pic"/>
+        </div>
+        
       </div>
     )
   }
